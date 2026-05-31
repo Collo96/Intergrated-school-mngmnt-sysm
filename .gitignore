@@ -1,0 +1,42 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# Storage
+storage/uploads/*
+storage/documents/*
+storage/reports/*
+!storage/uploads/.gitkeep
+!storage/documents/.gitkeep
+!storage/reports/.gitkeep
+
+# Database
+*.sql
+!database/*.sql
+
+# OS
+Thumbs.db
+.DS_Store
